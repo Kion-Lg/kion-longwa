@@ -1,0 +1,116 @@
+*,*::after,*::before{
+    margin: 0%;padding: 0%;
+}
+body{
+    border-image: fill 0 linear-gradient(#0003,#000);
+    background-image: url('_44bb5f81-21e4-49f3-8f0a-ad82ba9f4092.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+header{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    display: flex;
+}
+main{
+    padding-left: 10%;
+    padding-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+#home1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+#item1{
+    margin-left: 180px;
+    margin-right: 730px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+#item2{
+    margin-top: 10px;
+}
+img#logo{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 20px;
+}button#menu,#contact{
+    background: transparent;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-bottom: 3px solid white ;
+    border-radius: 15px;
+}
+button:hover,
+button:focus {
+    box-shadow: 0px 0px 8px aqua,0px 0px 12px aqua,0px 0px 16px aqua;
+  }
+h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(10, 10, 90),0px 0px 15px rgb(10, 10, 100),0px 0px 20px rgb(10, 10, 100);
+
+}
+
+.box{
+    width: 350px;
+    height: 450px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 5.5rem;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 8px white,0px 0px 12px white,0px 0px 16px white;
+}
+.box:hover,
+.box:focus{
+    box-shadow:0px 0px 8px blue,0px 0px 12px blue,0px 0px 16px blue;
+
+}
+.box1{
+    height: 370px;
+    width: 350px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 5.5rem;
+    border-radius: 2rem;
+    background-color: rgba(73, 163, 248, 0.562);
+    flex-wrap: wrap;
+    box-shadow:0px 0px 8px blue,0px 0px 12px blue,0px 0px 16px blue;
+}
+.box1{animation: pulse 3s infinite}
+@keyframes pulse{
+    0%,100%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+}
+img#img,.img{
+    height: 250px;
+    width: 320px;
+    margin-top: 10px;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+}
+p,a{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+}
+a{
+    color: black;
+}
